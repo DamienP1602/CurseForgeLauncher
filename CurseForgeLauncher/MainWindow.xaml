@@ -5,23 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CurseForgeLauncher"
         mc:Ignorable="d"
-        WindowStartupLocation="CenterScreen"
+        WindowStartupLocation="CenterScreen"        
         Title="Curseforge" Height="820" Width="1510" FontFamily="Bahnschrift" Icon="/logo.png">
-
-    <Window.Resources>
-        <Style x:Key="RectBorderStyle" TargetType="Rectangle">
-            <Setter Property="Focusable" Value="False" />
-            <Setter Property="Fill" Value="Blue" />
-            <Setter Property="Tag" Value="{Binding RelativeSource={RelativeSource AncestorType=Window}}" />
-        </Style>
-    </Window.Resources>
 
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
             <ColumnDefinition Width="19*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
         <StackPanel x:Name="mainStackPanel" Orientation="Vertical">
             <StackPanel Orientation="Vertical" Height="470" Background="#FF202020">
 
@@ -137,7 +128,7 @@
                         <Style TargetType="{x:Type Button}">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush Stretch="None" ImageSource="/premiumLogo.png"/>
+                                    <ImageBrush Stretch="None" ImageSource="/installationlogo.png"/>
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Template">
@@ -163,7 +154,33 @@
                         <Style TargetType="{x:Type Button}">
                             <Setter Property="Background">
                                 <Setter.Value>
-                                    <ImageBrush Stretch="None" ImageSource="/premiumLogo.png"/>
+                                    <ImageBrush Stretch="None" ImageSource="/supportLogo.png"/>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF868686"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+                <Button Height="50" HorizontalContentAlignment="Left" BorderBrush="{x:Null}">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <ImageBrush Stretch="None" ImageSource="/settingsLogo.png"/>
                                 </Setter.Value>
                             </Setter>
                             <Setter Property="Template">
@@ -189,6 +206,9 @@
 
         <StackPanel Grid.Column="1" Orientation="Horizontal" Background="#FF0D0D0D">
             <Label Content="Choose a Game" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" Foreground="White" Margin="25,25,0,0"></Label>
+            <Image Source="/enclume.png" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="500,-100,0,0" OpacityMask="#19000000" Width="1000" Height="500"/>
+            <TextBlock Text="Ads support authors." VerticalAlignment="Bottom" FontSize="16" Foreground="Gray" Margin="-580,0,0,0"></TextBlock>
+            <TextBlock Text="Subscribe" TextDecorations="Underline" VerticalAlignment="Bottom" FontSize="16" Foreground="Gray" Margin="-425,0,0,0"></TextBlock>
         </StackPanel>
 
     </Grid>

@@ -10,11 +10,15 @@
 
   <ItemGroup>
     <None Remove="discordLogo.png" />
+    <None Remove="enclume.png" />
     <None Remove="homeLogo.png" />
     <None Remove="homeLogoHovered.png" />
+    <None Remove="installationlogo.png" />
     <None Remove="loginLogo.png" />
     <None Remove="logo.png" />
     <None Remove="premiumLogo.png" />
+    <None Remove="settingsLogo.png" />
+    <None Remove="supportLogo.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -25,11 +29,15 @@
 
   <ItemGroup>
     <Resource Include="discordLogo.png" />
+    <Resource Include="enclume.png" />
     <Resource Include="homeLogo.png" />
     <Resource Include="homeLogoHovered.png" />
+    <Resource Include="installationlogo.png" />
     <Resource Include="loginLogo.png" />
     <Resource Include="logo.png" />
     <Resource Include="premiumLogo.png" />
+    <Resource Include="settingsLogo.png" />
+    <Resource Include="supportLogo.png" />
   </ItemGroup>
 
 </Project>
