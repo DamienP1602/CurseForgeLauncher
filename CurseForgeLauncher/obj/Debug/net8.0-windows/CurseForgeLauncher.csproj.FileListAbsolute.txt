@@ -45,3 +45,5 @@ C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Deb
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\LauncherPanel.g.cs
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\LauncherPanel.baml
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\SubscribePremiumPage.g.cs
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\SubscribePremiumPage.baml

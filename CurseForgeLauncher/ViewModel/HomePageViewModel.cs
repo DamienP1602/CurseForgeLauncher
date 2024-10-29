@@ -15,14 +15,14 @@ namespace CurseForgeLauncher.ViewModel
         public RelayCommand SelectCommand => new RelayCommand(SelectGame);
         void SelectGame(object _obj)
         {
-            ListBox _list = _obj as ListBox;
+            ListBox? _list = _obj as ListBox;
 
             if (_list == null)
                 return;
 
-            Game _selectedGame = _list.SelectedItem as Game;
+            Game? _selectedGame = _list.SelectedItem as Game;
 
-            MessageBox.Show(_selectedGame.Title);
+            MessageBox.Show(_selectedGame?.Title);
 
         }
 

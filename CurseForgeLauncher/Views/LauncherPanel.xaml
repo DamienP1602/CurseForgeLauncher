@@ -7,7 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <local:HomePage x:Name="HomePage" Visibility="Visible"></local:HomePage>    
-        
+        <local:HomePage x:Name="HomePage" Visibility="Hidden"></local:HomePage>
+        <local:SubscribePremiumPage x:Name="SubscribePage" Visibility="Hidden"></local:SubscribePremiumPage>
+
     </Grid>
 </UserControl>
