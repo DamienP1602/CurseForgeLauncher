@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\",
+  "WorkspaceRootPath": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\modpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:modpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\addgameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:addgameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +43,98 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-29T08:06:45.547Z",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\GameManager.cs",
+              "RelativeDocumentMoniker": "GameManager.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\GameManager.cs",
+              "RelativeToolTip": "GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T09:07:34.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MainWindowViewModel.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MainWindowViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:52:29.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddGameViewModel.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\AddGameViewModel.cs",
+              "RelativeDocumentMoniker": "AddGameViewModel.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\AddGameViewModel.cs",
+              "RelativeToolTip": "AddGameViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:42:55.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:06:42.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModPack.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\ModPack.cs",
+              "RelativeDocumentMoniker": "ModPack.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\ModPack.cs",
+              "RelativeToolTip": "ModPack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T10:04:30.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mod.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Mod.cs",
+              "RelativeDocumentMoniker": "Mod.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Mod.cs",
+              "RelativeToolTip": "Mod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:54:54.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:27:13.907Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CurseForgeLauncher
+{
+    public class AddGameViewModel : ModelViewBase
+    {
+        public GameBanner gameBanner { get; set; }
+
+        public RelayCommand AddGameCommand => new RelayCommand(AddGame);
+
+        private void AddGame(object obj)
+        {
+            if (string.IsNullOrEmpty(gameBanner.BannerPath) || string.IsNullOrEmpty(gameBanner.IconPath) || 
+                string.IsNullOrEmpty(gameBanner.Title))
+
+        }
+    }
+}
