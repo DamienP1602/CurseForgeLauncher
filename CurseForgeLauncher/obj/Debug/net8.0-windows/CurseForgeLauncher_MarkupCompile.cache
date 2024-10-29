@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\App.xaml
-11407045341
+31920470316
 
-12-1978995030
+16969050006
 1981385397204
-MainWindow.xaml;
+MainWindow.xaml;Views\HomePage.xaml;Views\LauncherPanel.xaml;
 
 False
 

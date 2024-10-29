@@ -1,16 +1,25 @@
-﻿using System;
+﻿using CurseForgeLauncher.Views;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace CurseForgeLauncher
 {
     public class MainWindowViewModel : ModelViewBase
     {
-        public ObservableCollection<Game> GameBanners { get; set; } = new ObservableCollection<Game>();
+        public RelayCommand HomeCommand => new RelayCommand(GoHomeCommand);
+        public RelayCommand LoginCommand => new RelayCommand(execute => OpenLoginURL());
+        public RelayCommand DiscordCommand => new RelayCommand(execute => OpenDiscordURL());
+        public RelayCommand DownloadCommand => new RelayCommand(execute => OpenDownload(), canExecute => false);
+
+
+
 
         RelayCommand subscribeCommand => new RelayCommand(Subscribe);
         RelayCommand gameClickedCommand => new RelayCommand(GameClicked);
@@ -36,43 +45,42 @@ namespace CurseForgeLauncher
 
         public MainWindowViewModel()
         {
-            GameManager.OnAddGame += GameBanners.Add;
-
-            GameBanners.Add(new Game() 
-            { 
-                BannerPath = "Images/MinecraftBanner.png", 
-                IconPath = "Images/MinecraftIcon.png",
-                Title = "Minecraft",
-                IsInstalled = false,
-            });
-            GameBanners.Add(new Game()
-            {
-                BannerPath = "Images/PalworldBanner.png",
-                IconPath = "Images/PalworldIcon.png",
-                Title = "Palworld",
-                IsInstalled = false,
-            });
-            GameBanners.Add(new Game()
-            {
-                BannerPath = "Images/StardewValleyBanner.png",
-                IconPath = "Images/StardewValleyIcon.png",
-                Title = "Stardew Valley",
-                IsInstalled = false,
-            });
-            GameBanners.Add(new Game()
-            {
-                BannerPath = "Images/Sims4Banner.png",
-                IconPath = "Images/Sims4Icon.png",
-                Title = "Sims 4",
-                IsInstalled = false,
-            });
-            GameBanners.Add(new Game()
-            {
-                BannerPath = "Images/WowBanner.png",
-                IconPath = "Images/WowIcon.png",
-                Title = "World of Warcraft",
-                IsInstalled = false,
-            });
+           
         }
+
+        void GoHomeCommand(object _obj)
+        {
+            LauncherPanel _panel = _obj as LauncherPanel;
+
+            if (_panel == null)
+                return;
+
+
+            _panel.HomePage.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        void OpenLoginURL()
+        {
+            string _url = "https://sso.curseforge.com/oidc/interaction/qR6fTQleR6EKFbALI4qj1";
+
+            ProcessStartInfo _psi = new ProcessStartInfo(_url);
+            _psi.UseShellExecute = true;
+            Process.Start(_psi);
+        }
+        void OpenDiscordURL()
+        {
+            string _url = "https://discord.com/invite/curseforge";
+
+            ProcessStartInfo _psi = new ProcessStartInfo(_url);
+            _psi.UseShellExecute = true;
+            Process.Start(_psi);
+        }
+
+        void OpenDownload()
+        {
+
+        }
+
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CurseForgeLauncher.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,8 @@ namespace CurseForgeLauncher.Views
         public HomePage()
         {
             InitializeComponent();
+            HomePageViewModel _vm = new HomePageViewModel();
+            DataContext = _vm;
         }
     }
 }
