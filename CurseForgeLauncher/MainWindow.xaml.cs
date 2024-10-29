@@ -19,6 +19,8 @@ namespace CurseForgeLauncher
         public MainWindow()
         {
             InitializeComponent();
+            AddGameViewModel _vm = new AddGameViewModel();
+            DataContext = _vm;
         }
     }
 }
