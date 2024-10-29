@@ -22,7 +22,6 @@
     <None Remove="Views\CF_NoAds.png" />
     <None Remove="Views\CF_Premium.png" />
     <None Remove="Views\CF_Sandwatch.png" />
-    <None Remove="Views\crown.jpg" />
     <None Remove="Views\crown.png" />
     <None Remove="Views\discordLogo.png" />
     <None Remove="Views\premium.png" />
@@ -47,7 +46,6 @@
     <Resource Include="Views\CF_NoAds.png" />
     <Resource Include="Views\CF_Premium.png" />
     <Resource Include="Views\CF_Sandwatch.png" />
-    <Resource Include="Views\crown.jpg" />
     <Resource Include="Views\crown.png" />
     <Resource Include="Views\discordLogo.png" />
     <Resource Include="Views\premium.png" />

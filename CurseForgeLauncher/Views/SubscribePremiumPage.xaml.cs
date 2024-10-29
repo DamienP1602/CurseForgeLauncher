@@ -19,11 +19,11 @@ namespace CurseForgeLauncher.Views
     /// <summary>
     /// Interaction logic for SubscribePremiumPage.xaml
     /// </summary>
-    public partial class SubscribePremiumPage : UserControl
+    public partial class SubscribePremiumPageViewModel : UserControl
     {
         RelayCommand runArticleCommand => new RelayCommand(Run_Click_Article);
         RelayCommand runSupportCommand => new RelayCommand(Run_Click_Support);
-        public SubscribePremiumPage()
+        public SubscribePremiumPageViewModel()
         {
             InitializeComponent();
         }
