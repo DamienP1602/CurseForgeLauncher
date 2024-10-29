@@ -1,22 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CurseForgeLauncher
 {
-    public class Game
+    public class Game : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler? PropertyChanged;
+        bool isInstalled;
+
         public string BannerPath { get; set; }
         public string IconPath { get; set; }
         public string Title { get; set; }
 
-        public bool IsInstalled { get; set; }
+        public bool IsInstalled
+        {
+            get
+            {
+                return isInstalled;
+            }
+            set
+            {
+                isInstalled = value;
+                OnPropertyChanged();
+            }
+        }
+        public ObservableCollection<ModPack> ModPack { get; set; } = new ObservableCollection<ModPack>();
+        public int ModsCount => ModPack.Count;
 
-        public ObservableCollection<Mod> Mods { get; set; } = new ObservableCollection<Mod>();
-
-        public int ModsCount => Mods.Count;
+        void OnPropertyChanged([CallerMemberName] string _propName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(_propName));
+        }
     }
 }

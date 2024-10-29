@@ -10,10 +10,12 @@ namespace CurseForgeLauncher
 {
     public class GameManager
     {
-        public static Action<Game>? OnAddGame = null;
+        public static Action<bool>? OnGameInstalled = null;
+
+        RelayCommand gameClickedCommand = new RelayCommand(GameClicked);
+
         public static ObservableCollection<Game> Games { get; set; } = new ObservableCollection<Game>();
 
-        RelayCommand gameClickedCommand => new RelayCommand(GameClicked);
 
 
         void GameClicked(object obj)
@@ -22,10 +24,8 @@ namespace CurseForgeLauncher
             {
                 ((Game)obj).IsInstalled = true;
                 MessageBox.Show("Game Installed");
-                return;
             }
             // User Control qui ouvre la fenetre de modpack du jeu
-            MessageBox.Show("Game Open...");
         }
     }
 }
