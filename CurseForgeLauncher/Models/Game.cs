@@ -18,6 +18,7 @@ namespace CurseForgeLauncher
         public string IconPath { get; set; }
         public string Title { get; set; }
 
+        public RelayCommand SelectedCommand { get; set; }
         public bool IsInstalled
         {
             get
@@ -30,6 +31,8 @@ namespace CurseForgeLauncher
                 OnPropertyChanged();
             }
         }
+
+        public string IsInstalledString => isInstalled ? "Installed" : "Not Installed";
         public ObservableCollection<ModPack> ModPack { get; set; } = new ObservableCollection<ModPack>();
         public int ModsCount => ModPack.Count;
 

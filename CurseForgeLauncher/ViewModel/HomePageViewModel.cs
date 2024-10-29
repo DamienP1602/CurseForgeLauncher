@@ -12,20 +12,6 @@ namespace CurseForgeLauncher.ViewModel
 {
     class HomePageViewModel : ModelViewBase
     {
-        public RelayCommand SelectCommand => new RelayCommand(SelectGame);
-        void SelectGame(object _obj)
-        {
-            ListBox? _list = _obj as ListBox;
-
-            if (_list == null)
-                return;
-
-            Game? _selectedGame = _list.SelectedItem as Game;
-
-            MessageBox.Show(_selectedGame?.Title);
-
-        }
-
         public ObservableCollection<Game> GameBanners { get; set; } = new ObservableCollection<Game>();
 
         public HomePageViewModel()
@@ -65,8 +51,18 @@ namespace CurseForgeLauncher.ViewModel
                 Title = "World of Warcraft",
                 IsInstalled = false,
             });
+
+            foreach (Game _game in GameBanners)
+            {
+                _game.SelectedCommand = new RelayCommand(execute => SelectGame(_game));
+            }
         }
 
+        void SelectGame(Game _gamesSelected)
+        {
+            MessageBox.Show(_gamesSelected.Title);
+            _gamesSelected.IsInstalled = true;
+        }
 
     }
 }

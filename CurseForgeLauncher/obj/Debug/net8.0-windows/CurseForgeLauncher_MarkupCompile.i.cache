@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\
+C:\Users\damie\OneDrive\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\
 CurseForgeLauncher
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\App.xaml
+C:\Users\damie\OneDrive\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\App.xaml
 42008380402
 
-18-1363551943
-1981385397204
+19210530559
+1981124507420
 MainWindow.xaml;Views\HomePage.xaml;Views\LauncherPanel.xaml;Views\SubscribePremiumPage.xaml;
 
-False
+True
 

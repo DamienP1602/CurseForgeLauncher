@@ -4,8 +4,13 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CurseForgeLauncher.Views"
-             mc:Ignorable="d" 
+             xmlns:Utils="clr-namespace:CurseForgeLauncher.Utils"
+             mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="800" Name="Home">
+    <UserControl.Resources>
+        <Utils:StringToBoolConvertor x:Key="StringToBoolConvertor"></Utils:StringToBoolConvertor>
+    </UserControl.Resources>
+    
     <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
         <Label Content="Choose a Game" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" Foreground="White" Margin="25,15,0,0"/>
 
@@ -26,7 +31,7 @@
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
 
-                        <Button Height="235" Width="175" HorizontalContentAlignment="Left" BorderBrush="{x:Null}" Command="{Binding SelectCommand}" CommandParameter="{x:Reference Name=GamePanel}">
+                        <Button Height="235" Width="175" HorizontalContentAlignment="Left" BorderBrush="{x:Null}" Command="{Binding SelectedCommand}" >
                             <Button.Style>
                                 <Style TargetType="{x:Type Button}">
                                     <Setter Property="Background">
@@ -52,7 +57,7 @@
                         </Button>
                         
                         <Label Grid.Row="1" Content="{Binding Title}" Foreground="White" FontSize="16"></Label>
-                        <Label Grid.Row="2" Content="Not Installed" Foreground="Gray" FontSize="16"></Label>
+                        <Label Grid.Row="2" Content="{Binding IsInstalled, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource StringToBoolConvertor}}" Foreground="Gray" FontSize="16"></Label>
                     </Grid>
                 </DataTemplate>
             </ListBox.ItemTemplate>
