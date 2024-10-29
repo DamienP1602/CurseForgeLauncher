@@ -27,10 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="discordLogo.png" />
     <Resource Include="enclume.png" />
     <Resource Include="homeLogo.png" />

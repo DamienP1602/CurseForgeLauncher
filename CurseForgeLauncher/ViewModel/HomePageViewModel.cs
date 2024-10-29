@@ -30,8 +30,6 @@ namespace CurseForgeLauncher.ViewModel
 
         public HomePageViewModel()
         {
-            GameManager.OnAddGame += GameBanners.Add;
-
             GameBanners.Add(new Game()
             {
                 BannerPath = "/Views/MinecraftBanner.png",

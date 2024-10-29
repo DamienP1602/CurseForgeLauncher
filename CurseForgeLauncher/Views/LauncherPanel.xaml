@@ -9,6 +9,6 @@
     <Grid>
         <local:HomePage x:Name="HomePage" Visibility="Hidden"></local:HomePage>
         <local:SubscribePremiumPage x:Name="SubscribePage" Visibility="Hidden"></local:SubscribePremiumPage>
-
+        
     </Grid>
 </UserControl>
