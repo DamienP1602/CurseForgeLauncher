@@ -19,18 +19,15 @@
     <None Remove="premiumLogo.png" />
     <None Remove="settingsLogo.png" />
     <None Remove="supportLogo.png" />
-    <None Remove="Views\CF_NoAds.png" />
-    <None Remove="Views\CF_Premium.png" />
-    <None Remove="Views\CF_Sandwatch.png" />
-    <None Remove="Views\crown.jpg" />
-    <None Remove="Views\crown.png" />
-    <None Remove="Views\discordLogo.png" />
-    <None Remove="Views\premium.png" />
+    <None Remove="Views\MinecraftBanner.png" />
+    <None Remove="Views\PalworldBanner.png" />
+    <None Remove="Views\Sims4Banner.png" />
+    <None Remove="Views\StardewValleyBanner.png" />
+    <None Remove="Views\WowBanner.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewModel\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -44,13 +41,11 @@
     <Resource Include="premiumLogo.png" />
     <Resource Include="settingsLogo.png" />
     <Resource Include="supportLogo.png" />
-    <Resource Include="Views\CF_NoAds.png" />
-    <Resource Include="Views\CF_Premium.png" />
-    <Resource Include="Views\CF_Sandwatch.png" />
-    <Resource Include="Views\crown.jpg" />
-    <Resource Include="Views\crown.png" />
-    <Resource Include="Views\discordLogo.png" />
-    <Resource Include="Views\premium.png" />
+    <Resource Include="Views\MinecraftBanner.png" />
+    <Resource Include="Views\PalworldBanner.png" />
+    <Resource Include="Views\Sims4Banner.png" />
+    <Resource Include="Views\StardewValleyBanner.png" />
+    <Resource Include="Views\WowBanner.png" />
   </ItemGroup>
 
 </Project>

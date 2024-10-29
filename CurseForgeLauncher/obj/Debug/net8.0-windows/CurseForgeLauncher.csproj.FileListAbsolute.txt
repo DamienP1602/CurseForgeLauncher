@@ -40,7 +40,8 @@ C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Deb
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\CurseForgeLauncher.pdb
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\CurseForgeLauncher.genruntimeconfig.cache
 C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\ref\CurseForgeLauncher.dll
-D:\Julio\Github\WPF\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\HomePage.g.cs
-D:\Julio\Github\WPF\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\SubscribePremiumPage.g.cs
-D:\Julio\Github\WPF\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\HomePage.baml
-D:\Julio\Github\WPF\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\SubscribePremiumPage.baml
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\HomePage.g.cs
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\HomePage.baml
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\LauncherPanel.g.cs
+C:\Users\PUEC1602\Documents\GitHub\CurseForgeLauncher\CurseForgeLauncher\obj\Debug\net8.0-windows\Views\LauncherPanel.baml

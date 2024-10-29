@@ -5,8 +5,58 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:CurseForgeLauncher.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+             d:DesignHeight="450" d:DesignWidth="800" Name="Home">
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Label Content="Choose a Game" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" Foreground="White" Margin="25,15,0,0"/>
+
+        <ListBox x:Name="GamePanel" ItemsSource="{Binding GameBanners}" Background="{x:Null}" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderBrush="{x:Null}" Margin="15,70,0,0"
+                 >
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel IsItemsHost="True" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10,0,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="6*"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Button Height="235" Width="175" HorizontalContentAlignment="Left" BorderBrush="{x:Null}">
+                            <Button.Style>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Background">
+                                        <Setter.Value>
+                                            <ImageBrush Stretch="Fill" ImageSource="{Binding BannerPath}"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Border Background="{TemplateBinding Background}">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                        
+                        <Label Grid.Row="1" Content="{Binding Title}" Foreground="White" FontSize="16"></Label>
+                        <Label Grid.Row="2" Content="Not Installed" Foreground="Gray" FontSize="16"></Label>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
     </Grid>
 </UserControl>
