@@ -46,7 +46,7 @@
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Bottom" Height="{Binding ElementName=mainWindow, Path=ActualHeight}" Background="#FF202020">
 
-                <Button Height="50" HorizontalContentAlignment="Left" BorderBrush="{x:Null}">
+                <Button Height="50" HorizontalContentAlignment="Left" BorderBrush="{x:Null}" Command="{Binding SubscribeCommand}" CommandParameter="{x:Reference Name=LauncherPanel}">
                     <Button.Style>
                         <Style TargetType="{x:Type Button}">
                             <Setter Property="Background">

@@ -17,11 +17,7 @@ namespace CurseForgeLauncher
         public RelayCommand LoginCommand => new RelayCommand(execute => OpenLoginURL());
         public RelayCommand DiscordCommand => new RelayCommand(execute => OpenDiscordURL());
         public RelayCommand DownloadCommand => new RelayCommand(execute => OpenDownload(), canExecute => false);
-
-
-
-
-        RelayCommand subscribeCommand => new RelayCommand(Subscribe);
+        public RelayCommand SubscribeCommand => new RelayCommand(Subscribe);
         RelayCommand gameClickedCommand => new RelayCommand(GameClicked);
 
 
@@ -37,10 +33,15 @@ namespace CurseForgeLauncher
             MessageBox.Show("Game Open...");
         }
 
-        private void Subscribe(object obj)
+        private void Subscribe(object _obj)
         {
-            // open subscride page 
-            MessageBox.Show("Subscride Page");
+            LauncherPanel _panel = _obj as LauncherPanel;
+
+            if (_panel == null)
+                return;
+
+            _panel.SubscribePage.Visibility = System.Windows.Visibility.Visible;
+            _panel.HomePage.Visibility = System.Windows.Visibility.Hidden;
         }
 
         public MainWindowViewModel()
@@ -55,8 +56,8 @@ namespace CurseForgeLauncher
             if (_panel == null)
                 return;
 
-
             _panel.HomePage.Visibility = System.Windows.Visibility.Visible;
+            _panel.SubscribePage.Visibility = System.Windows.Visibility.Hidden;
         }
 
         void OpenLoginURL()
