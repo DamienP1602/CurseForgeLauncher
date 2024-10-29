@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PUEC1602\\.nuget\\packages\\": {}
+    "C:\\Users\\MOUL3107\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
+      "projectUniqueName": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
       "projectName": "CurseForgeLauncher",
-      "projectPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
-      "packagesPath": "C:\\Users\\PUEC1602\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\obj\\",
+      "projectPath": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
+      "packagesPath": "C:\\Users\\MOUL3107\\.nuget\\packages\\",
+      "outputPath": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PUEC1602\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MOUL3107\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

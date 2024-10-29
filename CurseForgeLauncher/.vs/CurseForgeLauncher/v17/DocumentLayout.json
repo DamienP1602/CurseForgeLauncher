@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\",
+  "WorkspaceRootPath": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\views\\subscribepremiumpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:views\\subscribepremiumpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\views\\subscribepremiumpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:views\\subscribepremiumpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\julio\\github\\wpf\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +34,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubscribePremiumPage.xaml.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\SubscribePremiumPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SubscribePremiumPage.xaml.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\SubscribePremiumPage.xaml.cs",
+              "RelativeToolTip": "Views\\SubscribePremiumPage.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T14:43:41.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SubscribePremiumPage.xaml",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\SubscribePremiumPage.xaml",
+              "RelativeDocumentMoniker": "Views\\SubscribePremiumPage.xaml",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\SubscribePremiumPage.xaml",
+              "RelativeToolTip": "Views\\SubscribePremiumPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T11:10:20.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-29T11:04:30.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\HomePage.xaml",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "Views\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\Views\\HomePage.xaml",
               "RelativeToolTip": "Views\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-29T11:07:51.248Z",
@@ -42,11 +87,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,27 +100,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
+              "DocumentMoniker": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
+              "ToolTip": "D:\\Julio\\Github\\WPF\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindowViewModel.cs",
               "RelativeToolTip": "MainWindowViewModel.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAIwAwAAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-29T11:04:50.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-29T11:04:30.668Z",
               "EditorCaption": ""
             }
           ]
