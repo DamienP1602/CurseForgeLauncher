@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
+      "projectUniqueName": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
       "projectName": "CurseForgeLauncher",
-      "projectPath": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
+      "projectPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\CurseForgeLauncher.csproj",
       "packagesPath": "C:\\Users\\PUEC1602\\.nuget\\packages\\",
-      "outputPath": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\obj\\",
+      "outputPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PUEC1602\\AppData\\Roaming\\NuGet\\NuGet.Config",

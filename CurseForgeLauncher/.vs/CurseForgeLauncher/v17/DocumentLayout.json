@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\",
+  "WorkspaceRootPath": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\damien\\natif\\c#_wpf\\curseforgelauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|c:\\users\\puec1602\\documents\\github\\curseforgelauncher\\curseforgelauncher\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|d:\\damien\\natif\\c#_wpf\\curseforgelauncher\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37142CD6-2A5A-4B06-B368-61A999C59059}|CurseForgeLauncher.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T08:06:42.835Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Damien\\Natif\\C#_WPF\\CurseForgeLauncher\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\PUEC1602\\Documents\\GitHub\\CurseForgeLauncher\\CurseForgeLauncher\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-29T08:06:45.547Z",
