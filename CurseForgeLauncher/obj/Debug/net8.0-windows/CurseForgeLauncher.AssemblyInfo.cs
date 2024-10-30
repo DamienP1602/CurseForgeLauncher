@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurseForgeLauncher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f9fc30a6b5b6acc6bfad747a55374faf457068")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70732a2930970b2591610fb172b7f7fe3b5d1770")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurseForgeLauncher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurseForgeLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
