@@ -60,6 +60,7 @@ namespace CurseForgeLauncher.ViewModel
 
         void SelectGame(Game _gamesSelected)
         {
+            MessageBox.Show(_gamesSelected.Title);
             _gamesSelected.IsInstalled = true;
         }
 

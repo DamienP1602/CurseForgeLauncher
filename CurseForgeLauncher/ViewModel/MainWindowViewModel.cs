@@ -26,11 +26,9 @@ namespace CurseForgeLauncher
             if (((Game)obj).IsInstalled == false)
             {
                 ((Game)obj).IsInstalled = true;
-                MessageBox.Show("Game Installed");
                 return;
             }
             // User Control qui ouvre la fenetre de modpack du jeu
-            MessageBox.Show("Game Open...");
         }
 
         private void Subscribe(object _obj)
@@ -62,7 +60,7 @@ namespace CurseForgeLauncher
 
         void OpenLoginURL()
         {
-            string _url = "https://sso.curseforge.com/oidc/interaction/qR6fTQleR6EKFbALI4qj1";
+            string _url = "https://www.curseforge.com/api/v1/auth/login?returnUrl=https://www.curseforge.com/";
 
             ProcessStartInfo _psi = new ProcessStartInfo(_url);
             _psi.UseShellExecute = true;
